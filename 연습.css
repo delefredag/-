@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containter{
+    width: 350px;
+    padding: 30px;
+    height: 500px;
+    border-radius : 8px;
+    background-color: #001064;
+    color: #ffffff;            /*버튼 색깔 흰색 */
+    box-shadow: 5px 7px 20px rgba(0,0, 0.1);
+}
+
+body{
+    font-size:24px;
+    font-family:sans-serif;
+    display: flex;     /* 아래 center와 함께 모든게 중앙에 정렬됨 */
+    justify-content: center; /* 수평으로 가운데 */
+    align-items: center;     /* 수직으로 가운데 */
+    border:1px solid red;
+    height: 100vh;
+}
+
+.screen{
+    height: 100px;
+    display: flex; /* 앞으로 정렬을 시작할거야. ⬆️수직, ⬅️수평 택1 */
+    justify-content: flex-end;
+    font-size: 200%;
+    margin-bottom: 15px;  /* 스크린과 버튼 사이를 15px 띄우기 */ 
+    background-color: white;
+    color: black;
+    border-radius:12px;
+    padding:15px;
+    box-shadow: inset 10px 10px 0px 0px rgba(206, 206, 206, 0.807);
+    /* 안쪽 쉐도우는 :inset */
+}
+
+.buttons {
+    display: grid; /*grid는 컨테이너고 flex는 컨텐츠. 🔄수직, 수평 둘 다 가능 */
+    grid-template-columns: repeat(4, 1fr); /* 4개의 column을 균일하게 1:1:1 */
+    /* grid 크기 지정 속성 */
+    gap: 15px;
+    /* background-color: #001064; */
+    border-radius: 12px;
+}
+
+.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: darkgray;
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   box-shadow: 0px 6px 0px #6f6e6e;
+   cursor: pointer;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.right {
+    background-color: #5f5fc4;
+    box-shadow: 0px 6px 0px #4c4ca0; /*오른쪽 버튼 그림자도 다른 색으로 지정 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
