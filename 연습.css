@@ -26,8 +26,9 @@ body{
 
 .screen{
     height: 100px;
-    display: flex; /* 앞으로 정렬을 시작할거야. ⬆️수직, ⬅️수평 택1 */
+    display: flex; /* 앞으로 정렬을 시작할거야. ⬅️수평,⬆️수직 택1 */
     justify-content: flex-end;
+    align-items: flex-end;
     font-size: 200%;
     margin-bottom: 15px;  /* 스크린과 버튼 사이를 15px 띄우기 */ 
     background-color: white;
